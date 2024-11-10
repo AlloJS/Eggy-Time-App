@@ -58,6 +58,11 @@
 			path = "Eggy TimerUITests";
 			sourceTree = "<group>";
 		};
+		BB5F67C12CE0EDF1003A2BB1 /* image */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		BB4676C22CD78E8000AE7563 = {
 			isa = PBXGroup;
 			children = (
+				BB5F67C12CE0EDF1003A2BB1 /* image */,
 				BB4676CD2CD78E8000AE7563 /* Eggy Timer */,
 				BB4676E42CD78E8100AE7563 /* Eggy TimerTests */,
 				BB4676EE2CD78E8100AE7563 /* Eggy TimerUITests */,
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BB4676CD2CD78E8000AE7563 /* Eggy Timer */,
+				BB5F67C12CE0EDF1003A2BB1 /* image */,
 			);
 			name = "Eggy Timer";
 			packageProductDependencies = (
@@ -292,11 +299,13 @@
 				DEVELOPMENT_TEAM = 9WFL3Y7TQJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Eggy Timer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = EggyTime;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +329,13 @@
 				DEVELOPMENT_TEAM = 9WFL3Y7TQJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Eggy Timer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = EggyTime;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
