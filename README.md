@@ -21,7 +21,7 @@ Benvenuto in **Eggy Time App**! 🥳 Una semplice e divertente applicazione per 
 ## 📸 Screenshot
 
 Ecco un'anteprima dell'app:  
-![Eggy Time App](image/screenshot.png)
+<img src="image/screenshot.png" alt="Eggy Time App Screenshot" width="300">
 
 ---
 
